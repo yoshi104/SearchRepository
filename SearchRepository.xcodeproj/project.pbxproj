@@ -11,6 +11,7 @@
 		FF3C36E5254CFB9F000F0059 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C36E4254CFB9F000F0059 /* ContentView.swift */; };
 		FF3C36E7254CFBB0000F0059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3C36E6254CFBB0000F0059 /* Assets.xcassets */; };
 		FF3C36EA254CFBB0000F0059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3C36E9254CFBB0000F0059 /* Preview Assets.xcassets */; };
+		FF3C36F3254CFFCF000F0059 /* ViewCompornents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C36F2254CFFCF000F0059 /* ViewCompornents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FF3C36E6254CFBB0000F0059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3C36E9254CFBB0000F0059 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF3C36EB254CFBB0000F0059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3C36F2254CFFCF000F0059 /* ViewCompornents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCompornents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				FF3C36E2254CFB9F000F0059 /* SearchRepositoryApp.swift */,
 				FF3C36E4254CFB9F000F0059 /* ContentView.swift */,
+				FF3C36F2254CFFCF000F0059 /* ViewCompornents.swift */,
 				FF3C36E6254CFBB0000F0059 /* Assets.xcassets */,
 				FF3C36EB254CFBB0000F0059 /* Info.plist */,
 				FF3C36E8254CFBB0000F0059 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3C36F3254CFFCF000F0059 /* ViewCompornents.swift in Sources */,
 				FF3C36E5254CFB9F000F0059 /* ContentView.swift in Sources */,
 				FF3C36E3254CFB9F000F0059 /* SearchRepositoryApp.swift in Sources */,
 			);
@@ -272,7 +276,7 @@
 				DEVELOPMENT_TEAM = ABMFV245C7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SearchRepository/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +298,7 @@
 				DEVELOPMENT_TEAM = ABMFV245C7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SearchRepository/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
