@@ -7,11 +7,14 @@
 
 import SwiftUI
 
-@main
-struct SearchRepositoryApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+@available(iOS 14.0, *)
+struct Testing_SearchRepositoryAppHolder {
+    @main
+    struct SearchRepositoryApp: App {
+        var body: some Scene {
+            WindowGroup {
+//                ContentView()
+            }
         }
     }
 }
